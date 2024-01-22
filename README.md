@@ -1,5 +1,13 @@
 
 
+Setup server:
+https://pypi.org/project/pypiserver/
+
+"""
+pip install pypiserver                # Or: pypiserver[passlib,cache]
+mkdir ~/packages                      # Copy packages into this directory.
+pypi-server run -p 8080 ~/packages &    
+"""
 
 Build:
 
@@ -17,6 +25,8 @@ pip install --index-url http://localhost:8080/simple/ verysimplemoduleliam_packa
 
 Example:
 
+"""
+
 from verysimplemoduleliam import *
 add(50,12)
 Mammals().printMembers()
@@ -27,11 +37,11 @@ g = F.Number(10)
 g.val()
 F.Number(20).val()
 F.Mammals().printMembers()
-
+"""
 
 Resources:
-https://pypi.org/project/example-pypi-package/#description
-https://pypi.org/project/pypiserver/
-https://www.freecodecamp.org/news/build-your-first-python-package/
+* https://pypi.org/project/example-pypi-package/#description
+* https://pypi.org/project/pypiserver/
+* https://www.freecodecamp.org/news/build-your-first-python-package/
 
 
