@@ -15,8 +15,8 @@ python setup.py sdist bdist_wheel
 
 Copy to ~/packages for https://pypi.org/project/pypiserver/
 
-verysimplemoduleliam_package-0.1.0-py3-none-any.whl
-verysimplemoduleliam_package-0.1.0.tar.gz
+* verysimplemoduleliam_package-0.1.0-py3-none-any.whl
+* verysimplemoduleliam_package-0.1.0.tar.gz
 
 
 Install:
